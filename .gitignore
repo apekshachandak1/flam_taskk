@@ -33,3 +33,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Models (large files)
+models/

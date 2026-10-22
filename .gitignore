@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Data files (don't upload full dataset)
+data/raw/*.jsonl
+!data/raw/test_cases.jsonl
+data/output/clean/*.parquet
+data/output/clean/clean_from_parquet.jsonl
+
+# Keep only required output files
+!data/output/ledger.jsonl
+!data/output/eval.jsonl
+!data/output/contamination.jsonl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
